@@ -1,7 +1,7 @@
 ---
 title: About Me
 subtitle: A bit more about me!
-img_path: /images/50468855_10217079662358746_4979106228488634368_o.jpg
+img_path: ''
 menus:
   main:
     title: About
@@ -13,5 +13,3 @@ template: page
 His interests span a wide variety of mediums, including web development, songwriting, writing screenplays and stand-up comedy.
 
 > If a man does not keep pace with his companions, perhaps it is because he hears a different drummer. Let him step to the music which he hears, however measured or far away. <cite>Henry David Thoreau</cite>
-
-_Thank You for reading!_
