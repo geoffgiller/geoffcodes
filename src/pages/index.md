@@ -6,6 +6,14 @@ sections:
     section_id: hero
     type: heroblock
   - actions:
+      - label: View Blog
+        url: blog/index.html
+    component: PostsBlock
+    num_posts_displayed: 4
+    section_id: recent-posts
+    title: Recent Posts
+    type: postsblock
+  - actions:
       - label: Contact Me
         url: /contact
     component: ContentBlock
@@ -18,14 +26,6 @@ sections:
     section_id: about
     title: About
     type: contentblock
-  - actions:
-      - label: View Blog
-        url: blog/index.html
-    component: PostsBlock
-    num_posts_displayed: 4
-    section_id: recent-posts
-    title: Recent Posts
-    type: postsblock
 menus:
   main:
     title: Home
