@@ -23,7 +23,7 @@ export default class PostsBlock extends React.Component {
 				<div className='post-feed'>
 					{_.map(recent_posts, (post, post_idx) => (
 						<article key={post_idx} className='post'>
-							<div className='post-inside'>
+							<Link className='post-inside' to={safePrefix(_.get(post, 'url'))}>
 								{_.get(post, 'frontmatter.thumb_img_path') && (
 									<Link
 										className='post-thumbnail'
@@ -60,7 +60,7 @@ export default class PostsBlock extends React.Component {
 										)}
 									</time>
 								</footer>
-							</div>
+							</Link>
 						</article>
 					))}
 				</div>
