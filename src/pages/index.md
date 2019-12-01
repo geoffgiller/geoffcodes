@@ -14,7 +14,7 @@ sections:
       the computer software industry. Strong engineering professional skilled in
       Interactive Applications, Management, React.js, Javascript, HTML, and
       SASS.
-    image: /images/profile-picutre-2.jpeg
+    image: ''
     section_id: about
     title: About
     type: contentblock
