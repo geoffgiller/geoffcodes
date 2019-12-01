@@ -1,6 +1,6 @@
 ---
 title: About Me
-subtitle: A bit more about me!
+subtitle: A little bit more about me!
 img_path: ''
 menus:
   main:

@@ -1,6 +1,6 @@
 ---
 title: Blog
-subtitle: Help me, help you (learn)
+subtitle: A place to gather my thoughts and shout into the void.
 menus:
   main:
     title: Blog
