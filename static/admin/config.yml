@@ -364,6 +364,11 @@ collections:
             label: Title
             required: true
             hint: The title of the page.
+          - widget: string
+            name: subtitle
+            label: Subtitle
+            required: true
+            hint: The subtitle of the page.
           - widget: object
             name: menus
             label: Blog Menus
