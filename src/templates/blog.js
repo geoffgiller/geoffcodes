@@ -14,6 +14,16 @@ export default class Blog extends React.Component {
 		);
 		return (
 			<Layout {...this.props}>
+				<header className='post-header'>
+					<h1 className='post-title underline'>
+						{_.get(this.props, 'pageContext.frontmatter.title')}
+					</h1>
+				</header>
+				{_.get(this.props, 'pageContext.frontmatter.subtitle') && (
+					<div className='post-subtitle'>
+						{htmlToReact(_.get(this.props, 'pageContext.frontmatter.subtitle'))}
+					</div>
+				)}
 				<div className='post-feed'>
 					{_.map(display_posts, (post, post_idx) => (
 						<article key={post_idx} className='post'>
