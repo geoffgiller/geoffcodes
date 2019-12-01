@@ -1,5 +1,5 @@
 ---
-title: Top 5 VSCode Tricks
+title: Top 5 VSCode Tips
 date: 2019-12-01T18:49:23.445Z
 thumb_img_path: /images/top-10-vscode-tricks.webp
 content_img_path: /images/top-10-vscode-tricks.webp
